@@ -19,7 +19,7 @@
 }
 
 /* jumbotron */
-.jumbotron {
+.jumbotronBig {
     color: white;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;

@@ -49,3 +49,17 @@ section {
     opacity: 100%;
     box-shadow: 0px 2px #2d64e6;
 }
+
+/* next game */
+.nextGameMain {
+    color: white;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.nextGameList {
+    background-color: #1f1f1f;
+    color: white;
+}

@@ -1,6 +1,6 @@
 /* utility */
 section {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .btnCircle {
@@ -15,6 +15,12 @@ section {
 
 .btnBlue {
     background-color: #2d64e6;
+}
+
+.btnGrey {
+    background-color: #d9dadc;
+    color: #2d64e6;
+    margin: 0;
 }
 
 /* header logo sony*/
@@ -62,4 +68,13 @@ section {
 .nextGameList {
     background-color: #1f1f1f;
     color: white;
+}
+
+/* playstation plus */
+.PSPlus {
+    background-color: #bebcbb;
+}
+
+.PSPlusImg {
+    width: 14rem;
 }

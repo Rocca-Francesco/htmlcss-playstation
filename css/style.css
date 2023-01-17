@@ -83,3 +83,13 @@ section {
 .scontiImg {
     /* max-width: 17rem; */
 }
+
+/* playstastion now */
+.PSNow {
+    background-color: #161c3b;
+    color: white;
+}
+
+.PSNowImg {
+    width: 14rem;
+}

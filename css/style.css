@@ -4,10 +4,13 @@ section {
 }
 
 .btnCircle {
+    position: relative;
     border-radius: 1.375rem;
     font-size: 0.7rem;
     font-weight: bold;
 }
+
+
 
 .btnOrange {
     background-color: #cd3d0f;
@@ -28,15 +31,40 @@ ul {
 }
 
 /* header logo sony*/
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
 .logoSony {
     width: 6rem;
+}
+
+.navbarLogo {
+    width: 2.5rem;
 }
 
 .logoSonyImg {
     width: 4rem;
 }
 
+.dropdown-toggle::after {
+    /* changed dropdown logo from bootstrap */
+    content: "";
+    background-image: url(../img/chevron-down-solid.svg);
+}
+
+.searchLogo {
+    width: 1.5rem;
+    margin: 0.2rem;
+}
+
 /* jumbotron */
+.jumbotron {
+    padding-top: 5rem;
+}
+
 .jumbotronBig {
     color: white;
     background-image: url(../img/jumbo-bg.png);

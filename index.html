@@ -18,14 +18,14 @@
 <body>
     <header>
         <!-- header logo sony -->
-        <div class="container-fluid bg-dark text-end">
+        <div class="container-fluid bg-dark d-flex justify-content-end align-items-center py-1">
             <img class="logoSonyImg" src="./img/sony_logo.svg" alt="Sony">
         </div>
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./img/play_logo.svg" alt="Playstation">
+                <a class="navbar-brand p-0" href="#">
+                    <img class="navbarLogo" src="./img/play_logo.svg" alt="Playstation">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -125,7 +125,7 @@
                             </ul>
                         </li>
                     </ul>
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
                         <!-- My Playstation dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -141,8 +141,11 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <button type="button" class="btn btn-dark btnCircle">Accedi</button>
+                        <li class="nav-item">
+                            <button class="btn btn-dark btnCircle" type="button">Accedi</button>
+                        </li>
+                        <li class="nav-item">
+                            <img class="searchLogo" src="./img/lens.svg" alt="search">
                         </li>
                     </ul>
                 </div>

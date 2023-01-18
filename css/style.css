@@ -10,7 +10,7 @@ section {
 }
 
 .btnOrange {
-    background-color: orange;
+    background-color: #cd3d0f;
 }
 
 .btnBlue {
@@ -41,12 +41,27 @@ ul {
     color: white;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     min-height: 30rem;
 }
 
 .logoJumbo {
     width: 12rem;
+}
+
+.imgSelector {
+    padding: 2px;
+    border-radius: 0.95rem;
+}
+
+.imgSelectorActive {
+    border: 2px solid #2d64e6;
+}
+
+/* titles */
+.titleMotto {
+    font-size: 0.7rem;
 }
 
 /* sponsor ps5 */
@@ -65,6 +80,7 @@ ul {
     color: white;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     min-height: 30rem;
 }

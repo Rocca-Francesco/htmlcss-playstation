@@ -23,6 +23,10 @@ section {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 /* header logo sony*/
 .logoSony {
     width: 6rem;
@@ -92,4 +96,30 @@ section {
 
 .PSNowImg {
     width: 14rem;
+}
+
+/* footer */
+footer {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.logoFooter {
+    width: 5rem;
+}
+
+.logoGlobe {
+    width: 0.7rem;
+}
+
+.footerText {
+    font-size: 0.7rem;
+}
+
+.logoSIE {
+    width: 5rem;
+}
+
+.footerA {
+    color: white;
 }
